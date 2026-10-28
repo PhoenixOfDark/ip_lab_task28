@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Selly - Отель в горах</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    </head>
+    <body>
+        <div class="top_menu menu_wrapper">
+            <div class="menu_container">
+                <ul class="menu">
+                    <li class="menu_item"><a href="#" class="menu_link">Об отеле</a></li>
+                    <li class="menu_item">
+                        <a id="blogLink" href="https://sellyhotelblog.com" class="menu_link">Блог</a>
+                    </li>
+                    <li class="menu_item"><a href="#" class="menu_link">Цены</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Приложение</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Помощь</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Написать нам</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="promo_wrapper" id="promoWrapper">
+            <div class="promo_container">
+                <img src="images/selly.png" alt="Selly logo" class="promo_logo">
+                <h1 class="promo_title" id="promoTitle">
+                    Привет, мой друг! Добро пожаловать на сайт группы отелей Selly Hotels!
+                </h1>
+                <p class="promo_subtitle">
+                    Наш отель развеет привычное понимание о стандартных гостиницах, как местах для временного проживания, и позволит каждому посетителю почувствовать располагающую, домашнюю атмосферу тепла и уюта.
+                </p>
+            
+                <button class="success_button" id="findNumberButton">Найти номер</button>
+                <button class="additional_button">Смотреть видео</button>
+            </div>
+        </div>
+        
+        <div class="content_wrapper">
+            <div class="description">
+                <h2 class="article_title">Роскошный дизайн</h2>
+                <p class="article_text">
+                    Неповторимые дизайнерские задумки в интерьере отеля, которые вы можете посмотреть на официальном сайте, помогли удачно сочетать классику, уникальную ковку ручной работы и лепку.
+                </p>
+                
+                <p class="article_text">
+                    Комфортные диваны из натуральной кожи, а также стильные полы из мрамора лишь подчеркивают всю изысканность Гранд Отель Аристократ. Еще богаче здание смотрится поздним вечером, когда подсветка гостиницы так и манит, будто призывая вас заглянуть в свое изысканное убранство. К вашим услугам:
+                </p>
+                
+                <ul class="article_menu">
+                    <li class="article_menu_item">роскошная зона СПА</li>
+                    <li class="article_menu_item">банкетный зал</li>
+                    <li class="article_menu_item">конференц зал</li>
+                    <li class="article_menu_item">дневное посещение</li>
+                    <li class="article_menu_item">проживание по системе “Все включено”</li>
+                </ul>
+                
+                <p class="article_text">
+                    Удачное расположение перенесет вас в атмосферу лесного массива. Вы сможете наслаждаться прекрасными птичьими трелями, а не слушать звуки машин. Такая обстановка, как нельзя лучше, будут дополнять спокойствие и размеренность этого прекрасного местечка. Забронировать номер в нашей гостинице можно прямо на официальном сайте.
+                </p>
+            </div>
+        </div>
+
+        <div class="content_wrapper feature_wrapper" id="featureWrapper">
+            <div class="feature_description">
+                <div class="feature_title_wrapper">
+                    <h3 class="feature_title">Удобное приложение</h3>
+                    <div class="feature_title_icons">
+                        <img src="images/apple-icon.png" alt="Icon" class="feature_icon">
+                        <img src="images/android-icon.png" alt="Icon" class="feature_icon">
+                    </div>
+                </div>
+                <p class="feature_subtitle">
+                    В нашем приложении вы найдете фото отеля, отзывы постояльцев и узнаете о последних акциях.
+                </p>
+            </div>
+            <div class="feature_image_wrapper">
+                <img src="images/phone-app.png" alt="App">
+            </div>
+            <div class="clear"></div>
+        </div>
+        
+        <div class="content_wrapper feedback_wrapper">
+            <h3 class="feedback_title">Отзывы наших клиентов</h3>
+            <div class="feedbacks">
+                <div class="feedback_container">
+                    <img class="feedback_photo" alt="Екатерина" src="images/photo_one.jpg">
+                    <h4 class="person_name">Екатерина</h4>
+                    <p class="feedback_text">
+                        В это волшебное место хочется возвращаться снова и снова
+                    </p>
+                </div>
+                
+                <div class="feedback_container">
+                    <img class="feedback_photo" alt="Антон" src="images/photo_two.jpg">
+                    <h4 class="person_name">Антон</h4>
+                    <p class="feedback_text">
+                        Я искал тихое место для отдыха, и отель меня не разочаровал
+                    </p>
+                </div>
+                
+                <div class="feedback_container last">
+                    <img class="feedback_photo" alt="Валерий" src="images/photo_three.jpg">
+                    <h4 class="person_name">Валерий</h4>
+                    <p class="feedback_text">
+                        Я мало что запомнил, но все что запомнил мне понравилось
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <button class="success_button" id="showAllFeedbacks">Все отзывы</button>
+            
+            <div class="feedbacks hidden" id="hiddenFeedbacks">
+                <div class="feedback_container">
+                    <img class="feedback_photo" alt="Анастасия" src="images/photo_four.jpg">
+                    <h4 class="person_name">Анастасия</h4>
+                    <p class="feedback_text">
+                        Лучшее место, чтобы почувствовать единение с природой.
+                    </p>
+                </div>
+                
+                <div class="feedback_container">
+                    <img class="feedback_photo" alt="Мария" src="images/photo_five.jpg">
+                    <h4 class="person_name">Мария</h4>
+                    <p class="feedback_text">
+                        Отличное место для отдыха с детьми, они не хотели возвращаться домой!
+                    </p>
+                </div>
+                
+                <div class="feedback_container last">
+                    <img class="feedback_photo" alt="Сергей" src="images/photo_six.jpg">
+                    <h4 class="person_name">Сергей</h4>
+                    <p class="feedback_text">
+                        Обязательно приеду сюда снова! Где можно забронировать номер?
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <div class="separation_wrapper">
+            <div class="content_wrapper">
+                <h2 class="promo_title">
+                    Подпишитесь и получайте <br>новости первым
+                </h2>
+                <p class="promo_subtitle">
+                    В рассылке мы сообщаем о наших акциях и специальных предложениях. <br>Вы можете получать эту информацию из первых рук.
+                </p>
+                <button class="success_button">Подписаться</button>
+            </div>
+        </div>
+        
+        <div class="bottom_menu menu_wrapper">
+            <div class="menu_container">
+                <ul class="menu">
+                <li class="menu_item"><a href="#" class="menu_link">Об отеле</a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Блог</a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Цены</a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Приложение</a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Помощь</a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Написать нам</a></li>
+            </ul>
+            </div>
+        </div>
+        
+        <div class="welcome-modal" id="welcomeModal" role="dialog" aria-modal="true" aria-labelledby="welcomeModalTitle" aria-describedby="welcomeModalText" hidden>
+            <div class="welcome-modal__overlay" data-welcome-close></div>
+            <div class="welcome-modal__dialog" role="document">
+                <button class="welcome-modal__close" type="button" aria-label="Закрыть окно" data-welcome-close>&times;</button>
+                <p class="welcome-modal__brand">Selly Hotels</p>
+                <h2 class="welcome-modal__title" id="welcomeModalTitle">Как к вам обращаться?</h2>
+                <form class="welcome-modal__form" id="welcomeForm" novalidate>
+                    <label class="welcome-modal__label" for="guestName">Ваше имя</label>
+                    <input class="welcome-modal__input" id="guestName" name="guestName" type="text" placeholder="Например, Анна" autocomplete="given-name" maxlength="30" required>
+                    <p class="welcome-modal__error" id="guestNameError" role="alert" hidden>Пожалуйста, введите имя</p>
+                    <button class="welcome-modal__submit" type="submit">Продолжить</button>
+                    <button class="welcome-modal__skip" type="button" data-welcome-close>Пропустить</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
